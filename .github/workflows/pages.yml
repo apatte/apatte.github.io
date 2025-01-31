@@ -26,11 +26,12 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-
       - name: Install Dependencies
-        run: npm install
+        run: npm install --force # Ensures all packages are installed
+      - name: Ensure Theme is Cloned
+        run: |
+          git submodule update --init --recursive
       - name: Generate Hexo site
         run: npx hexo generate
-      - name: Build
-        run: npm run build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
