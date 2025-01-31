@@ -4,7 +4,7 @@ date: 2025-01-31 16:09:15
 tags:
 ---
 
-### Anna Patterson Principal Software Quality Engineer at EVERFI
+### Anna Patterson | Principal Software Quality Engineer at EVERFI
 
 Columbus, OH | E-mail: anna.momatava@gmail.com
 Linkedin: https://www.linkedin.com/in/tester-anna/
